@@ -1,0 +1,90 @@
+﻿body {
+        font-family: 'Roboto', sans-serif;
+}
+p {
+    color:#ff0000;
+    font-style:italic;
+
+}
+h1 {
+    text-align: center;
+     font-family: 'Roboto', sans-serif;
+  font: normal 34px/normal "open-sans", roboto 400, sans-serif;
+  color: #000000;
+}
+#cell,#cod,#ham{
+    text-align:center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+#cod_error,#ham_error,#dec_error,#hex_error,#bin_error,#oct_error,#ciao{
+    color:#ffffff;
+    font-size: 10px;
+}
+#button {
+    background: #2d2d2d;
+    color: #fff;
+      font-family: 'Roboto', sans-serif;
+  font: normal 30px/normal "open-sans", roboto 400, sans-serif;
+    height: 60px;
+    width: 150px;
+    line-height: 60px;
+    margin: 25px 25px;
+    text-align: center;
+    border: 0;
+    transition: all 0.3s ease 0s;
+    border-radius: 7px;
+    cursor:pointer;
+}
+
+#button:hover {
+  background: #CF4647;
+}
+#dec,#bin,#hex,#oct,#hamming,#code {
+    cursor:pointer;
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 10px 20px;
+  border: 1px solid #b7b7b7;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font-family: 'Roboto', sans-serif;
+  font: normal 16px/normal "open-sans", roboto 300, sans-serif;
+  color: #000000;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: rgba(252,252,252,1);
+  -webkit-box-shadow: 5px 4px 14px -3px rgba(0,0,0,0.2) ;
+  box-shadow: 5px 4px 14px -3px rgba(0,0,0,0.2) ;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+span {
+    font-style: italic;
+}
